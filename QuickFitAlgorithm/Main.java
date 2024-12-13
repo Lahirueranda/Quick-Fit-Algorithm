@@ -17,10 +17,10 @@ public class Main {
             // Show the menu to user
             System.out.println("\nSelect an option : ");
             System.out.println("1 - Memory Allocation");
-            System.out.println("2 - Process End");
-            System.out.println("0 - Exit");
+            System.out.println("2 - Process End (Memory Deallocation)");
+            System.out.println("0 - Programme Exit");
 
-            System.out.print("\nEnter your choice : ");
+            System.out.print("What do you want ? ");
             int choice = scanner.nextInt();
 
             switch (choice) {

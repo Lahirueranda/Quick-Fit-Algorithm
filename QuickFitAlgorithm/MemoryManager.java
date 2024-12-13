@@ -46,7 +46,7 @@ public class MemoryManager {
             }
         }
 
-        // Display the current running tasks
+        // Allocate memory and display the result
         tasks.add(new Task(taskIdCounter++, size, listName));
         return "\nAllocation successful: Allocated " + size + " bytes.\nStored List : " + listName
                 + "\n#########################################";
