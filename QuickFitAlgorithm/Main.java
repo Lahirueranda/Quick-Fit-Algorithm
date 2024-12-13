@@ -20,6 +20,7 @@ public class Main {
             System.out.println("2 - Process End");
             System.out.println("0 - Exit");
 
+            System.out.print("\nEnter your choice : ");
             int choice = scanner.nextInt();
 
             switch (choice) {
